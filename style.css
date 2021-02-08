@@ -1,11 +1,11 @@
 .container {
-  width: 500px;
+  max-width: 500px;
   align-content: center;
 }
 
 .grid {
-  height: 400px;
-  width: 400px;
+  max-height: 400px;
+  max-width: 400px;
   display: flex;
   flex-wrap: wrap;
   background-color: #dcd6bc;
@@ -46,44 +46,24 @@ div {
   box-sizing: border-box;
 }
 
-.one {
-  color: #e76346;
-}
-
-.two {
-  color: #4199d3;
-}
-
-.three {
-  color: #57da59;
-}
-
-.four {
-  color: #bb41d3;
-}
-
 #result {
   margin-top: 5px;
   color: #e76346;
 }
 
-
-
 #score{
   margin-top: 5px;
   color: #e76346;
 }
-/* .bomb {
-  background-color: red;
-} */
+
 
 @media screen and (max-width: 600px) {
 
   .container {
-    width: 90%;
+    width: 90vw;
   }
   .grid{
-    width: 90%;
+    width: 100%;
     margin : 0 auto;
   }
 
