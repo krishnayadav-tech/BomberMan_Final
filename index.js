@@ -13,6 +13,7 @@ const generator = ()=>{
       _temp = Math.floor((Math.random() * 100));
       _temp2 = _random.indexOf(_temp);
     }
+    console.log(_temp);
     _random[i] = _temp;
     document.querySelector(`#cell_${_temp}`).classList.remove("valid");
     document.querySelector(`#cell_${_temp}`).classList.add("bomb");
